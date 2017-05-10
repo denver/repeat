@@ -1,0 +1,28 @@
+{
+  "name": "repeat",
+  "version": "1.0.0",
+  "description": "repeat sms",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denver/repeat.git"
+  },
+  "keywords": [
+    "sms",
+    "repeat"
+  ],
+  "author": "denver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denver/repeat/issues"
+  },
+  "homepage": "https://github.com/denver/repeat#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "request": "^2.81.0",
+    "twilio": "^3.0.0"
+  }
+}
